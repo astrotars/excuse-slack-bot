@@ -1,0 +1,23 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+debug.log
+
+# Config
+envars.js
+
+# Local development
+*.env
+*.env.prod
+*.env.stage
+*.dev
+.DS_Store
+.nyc_output
+coverage
+dist
+dist-tests
+docker-data
+
+.log
+.vscode
+*.script.js
