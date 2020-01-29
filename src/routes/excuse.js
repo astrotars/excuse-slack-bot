@@ -13,7 +13,7 @@ export default (api) => {
 
 			const excuse = excuses[Math.floor(Math.random() * excuses.length)];
 
-			res.status(200).json({ text: excuse });
+			res.status(200).json({ username: 'Marcelo Pires', channel: 'G0GPUQ1FD', text: excuse });
 		} catch (error) {
 			console.error(error);
 		}
