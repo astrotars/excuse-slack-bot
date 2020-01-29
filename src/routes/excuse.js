@@ -8,7 +8,10 @@ export default (api) => {
 				'WFH today guys, not feeling very well!',
 				'My key snapped off in the door, waiting for a guy and then I will head in...',
 				'It is raining, going to WFH today.',
-				'My body is not ready. Will WFH today.'
+				'My body is not ready. Will WFH today.',
+				'I flushed my keys down the toilet, will WFH.',
+				'Have bad case of hiccups, will WFH.',
+				'Hurt my back while chasing beaver, will WFH.'
 			];
 
 			const excuse = excuses[Math.floor(Math.random() * excuses.length)];
