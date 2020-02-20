@@ -15,7 +15,15 @@ export default (api) => {
 			'I am ill. Will WFH',
 			'Too much gin last night, will WFH.',
 			'IKEA did not show up this morning, will WFH.',
-			'WFH today, they are fixing my balcony.'
+			'WFH today, they are fixing my balcony.',
+			'Have to go to the post office. Will WFH.',
+			"Feeling gassy today, don't want to smell up the office. Will WFH.",
+			'Tooth hurts. WFH today.',
+			'Met with Joseph and Antonio last night. Will WFH.',
+			'Trains are delayed. Will WFH.',
+			'It is raining. Will WFH.',
+			'No excuse. WFH.',
+			"Hi guys, I'm not feeling great. Will WFH today"
 		];
 
 		const excuse = excuses[Math.floor(Math.random() * excuses.length)];
