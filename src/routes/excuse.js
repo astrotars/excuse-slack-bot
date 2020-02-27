@@ -23,7 +23,8 @@ export default (api) => {
 			'Trains are delayed. Will WFH.',
 			'It is raining. Will WFH.',
 			'No excuse. WFH.',
-			"Hi guys, I'm not feeling great. Will WFH today"
+			"Hi guys, I'm not feeling great. Will WFH today",
+			'Coronavirus. Will WFH.'
 		];
 
 		const excuse = excuses[Math.floor(Math.random() * excuses.length)];
